@@ -1,5 +1,5 @@
 import sys
-input = sys.stdin.readline()
+input = sys.stdin.readline
 n = int(input())
 lst = [0] * 10001
 for _ in range(n):
