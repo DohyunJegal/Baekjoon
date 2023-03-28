@@ -36,7 +36,7 @@ def bfs():
 
             if 0<= tz < h and graph[tz][x][y] == 0:
                 graph[tz][x][y] = graph[z][x][y] + 1
-                queue.append((tz, x, ty))
+                queue.append((tz, x, y))
 
 bfs()
 
